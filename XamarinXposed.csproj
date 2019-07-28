@@ -54,7 +54,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\xposed-api-82.jar" />
+    <EmbeddedJar Include="Jars\xposed-api-82.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\xposed-api-82-sources.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
