@@ -1,0 +1,5 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "android.app", Managed="Android.App")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "android.content.res", Managed="Android.Content.Res")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "de.robv.android.xposed", Managed="Xposed")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "de.robv.android.xposed.callbacks", Managed="Xposed.Callbacks")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "de.robv.android.xposed.services", Managed="Xposed.Services")]

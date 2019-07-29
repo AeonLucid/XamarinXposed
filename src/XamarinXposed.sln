@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinXposed", "XamarinXposed.csproj", "{5D4CDA08-3EB9-4A88-8B6D-A4C358D110B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinXposedGenerator", "XamarinXposedGenerator\XamarinXposedGenerator.csproj", "{5D4CDA08-3EB9-4A88-8B6D-A4C358D110B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinXposed", "XamarinXposed\XamarinXposed.csproj", "{F683925A-D3BE-474B-9DD2-8050BC9B3003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5D4CDA08-3EB9-4A88-8B6D-A4C358D110B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4CDA08-3EB9-4A88-8B6D-A4C358D110B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4CDA08-3EB9-4A88-8B6D-A4C358D110B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F683925A-D3BE-474B-9DD2-8050BC9B3003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F683925A-D3BE-474B-9DD2-8050BC9B3003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F683925A-D3BE-474B-9DD2-8050BC9B3003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F683925A-D3BE-474B-9DD2-8050BC9B3003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
